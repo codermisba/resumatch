@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+requests
+streamlit
+pandas
+PyPDF2
+python-docx
+fuzzywuzzy
+sentence-transformers
+pinecone-client
