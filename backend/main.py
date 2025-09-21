@@ -1,8 +1,8 @@
 from fastapi import FastAPI, UploadFile, Form
-from .resume_parser import extract_resume_text
-from .jd_parser import extract_jd_text
-from .database import save_result, get_results
-from .relevance import compute_relevance
+from resume_parser import extract_resume_text
+from jd_parser import extract_jd_text
+from database import save_result, get_results
+from relevance import compute_relevance
 
 app = FastAPI(title="Automated Resume Relevance Checker")
 
